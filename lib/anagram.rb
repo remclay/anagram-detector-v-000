@@ -8,7 +8,10 @@ attr_accessor :word
   end
 
   def match(anagrams)
-    anagrams.split(', ')
+    letters = anagrams.split(', ').split("")
+    letters.each do ||
+
+    end
     # split anagrams array, arrange each (.sort), then compare with @word using enumerator that returns an array
   end
 
